@@ -1,8 +1,8 @@
-// Calculadora MG COACH 1.0.0 — service worker
+// Calculadora MG COACH 1.1.0 — service worker
 // Página: busca a versão nova na rede primeiro e usa a cópia guardada sem internet.
 // Fontes e ícones: usa a cópia guardada e atualiza em segundo plano.
 // Buscas no Open Food Facts nunca passam pelo cache.
-const CACHE_NAME = 'mgcoach-calculadora-v1-0-0';
+const CACHE_NAME = 'mgcoach-calculadora-v1-1-0';
 const ASSETS = ['./', './index.html', './manifest.json', './apple-touch-icon.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
